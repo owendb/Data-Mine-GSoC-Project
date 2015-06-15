@@ -1,0 +1,29 @@
+Data Analytics for the mailings
+-------------------------------
+I have worked on finding the time between sending and opening of mails, and computed the min, max and average for each mailing.
+
+min_delay -> Indicates the time difference(in seconds) between the delivery time of the mailing and the time when the first mail was opened in that mailing.
+max_delay -> Indicates the time difference(in seconds) between the delivery time of the mailing and the time when the last mail was opened in that mailing.
+avg_delay -> Indicates the average time difference(in seconds) after which the mails in the mailing were opened.
+
+min_delay_time, max_delay_time, avg_delay_time reports the same thing in HH:MM:SS format.
++------------+-----------+-----------+-------------+----------------+----------------+----------------+
+| mailing_id | min_delay | max_delay | avg_delay   | min_delay_time | max_delay_time | avg_delay_time |
++------------+-----------+-----------+-------------+----------------+----------------+----------------+
+|          1 |      3621 |      3621 |   3621.0000 | 01:00:21       | 01:00:21       | 01:00:21       |
+|          2 |         6 |        78 |     42.0000 | 00:00:06       | 00:01:18       | 00:01:42       |
+|          3 |      3613 |      3971 |   3801.0714 | 01:00:13       | 01:06:11       | 01:03:21       |
+|          4 |      3610 |      3714 |   3689.3750 | 01:00:10       | 01:02:54       | 01:01:29       |
+|          5 |      3621 |      6607 |   3938.6522 | 01:00:21       | 02:50:07       | 01:06:39       |
+|          6 |      3613 |    845509 | 167285.5151 | 01:00:13       | 235:52:49      | 46:28:06       |
+|          7 |      3615 |    771407 | 123552.1444 | 01:00:15       | 214:17:47      | 34:19:12       |
+|          8 |      3639 |    384007 | 107268.6996 | 01:01:39       | 107:40:07      | 30:48:49       |
+|          9 |      3964 |   6660570 | 359795.4655 | 01:06:04       | 838:59:59      | 100:57:35      |
+|         10 |        22 |   3021016 | 254015.2816 | 00:00:22       | 838:59:59      | 71:34:35       |
+|         12 |      3622 |      3622 |   3622.0000 | 01:00:22       | 01:00:22       | 01:00:22       |
+|         13 |      3609 |    250144 |  28164.3500 | 01:00:09       | 69:29:04       | 08:49:24       |
+|         14 |      3601 |   2306649 | 196477.9491 | 01:00:01       | 641:44:09      | 55:35:38       |
+|         20 |         9 |   1203738 | 192076.7159 | 00:00:09       | 334:22:18      | 53:21:17       |
+|         21 |        17 |   1130263 | 138802.5030 | 00:00:17       | 314:58:43      | 39:33:23       |
++------------+-----------+-----------+-------------+----------------+----------------+----------------+
+
